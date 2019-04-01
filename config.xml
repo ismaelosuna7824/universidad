@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.phonegap.universidad"
+version = "1.0.0">
+
+<name>PhoneGap-Ismael</name>
+
+<description>
+app que contienen 3 paginas con descripciones
+</description>
+
+<author href="https://example.com" email="jioc396@gmail.com">
+Ismael Osuna
+</author>
+
+<icon src="img/hero.png" gap:density="ldpi" gap:platform="android" />
+<icon src="img/hero.png" gap:density="mdpi" gap:platform="android" />
+<icon src="img/hero.png" gap:density="hdpi" gap:platform="android" />
+<icon src="img/hero.png" gap:density="xhdpi" gap:platform="android" />
+
+</widget>
