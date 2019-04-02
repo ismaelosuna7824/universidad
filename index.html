@@ -22,8 +22,8 @@
     <h1>Fimaz</h1>
   </div>
   <div data-role="content">
-	<center><a href="http://informaticamazatlan.mx/" target="_blank">
-	 <img src="img/fimaz.png" width="20%"/> </a></center>
+	<center><a href="http://informaticamazatlan.mx/" target="_blank" data-rel="external">
+	 <img src="img/fimaz.png" width="20%" rel=""/> </a></center>
 	<ul data-role="listview" data-inset="true">
 	  <li><a href="#facultad">Facultad de Informática</a><a href="#facultad">Predet.</a></li>
 	  <li><a href="#oferta">Oferta Educativa</a><a href="#oferta">Predet.</a></li>
@@ -50,8 +50,9 @@
 	    <h1>Fimaz</h1>
       </div>
 	  <div data-role="content">
+		  <img src="img/slider.jpg" width="100%"/>
 		  <center>
-		  <img src="img/image.jpg" width="40%"/></center>
+		  </center>
 		  <div data-role="collapsible-set">
 		    <div data-role="collapsible">
 		      <h3>Misión</h3>
@@ -128,13 +129,19 @@
 	    <h1>Fimaz</h1>
       </div>
 	  <div data-role="content">
-	    <div data-role="fieldcontain">
-	      <label for="textinput">Nombre:</label>
+	    <img src="img/registro.png" width="100%"  alt=""/>
+<div data-role="fieldcontain">
+      <label for="textinput">Nombre:</label>
 	      <input type="text" name="textinput" id="textinput" value=""  />
 	      <div data-role="fieldcontain">
 	        <label for="textinput2">Apellidos:</label>
 	        <input type="text" name="textinput2" id="textinput2" value=""  />
           </div>
+	      <div data-role="fieldcontain">
+	        <label for="slider">Edad:</label>
+	        <input type="range" name="slider" id="slider" value="100" min="0" max="100" />
+      </div>
+	
 	     
 	        
 	        <div data-role="fieldcontain">
